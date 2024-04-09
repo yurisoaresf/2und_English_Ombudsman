@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ombudsman Office</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">I'm Unifacisa</a></li>
+                <li><a href="#">Track your Registration</a></li>
+                <form>
+                    <input type="text" class="caixa-pesquisa" placeholder="What you're looking for?">
+                </form>
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <div class="logo">
+            <img src="assets/unifacisa-2.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Courses <span class="icone-seta"><i class="fas fa-chevron-down"></i></span></a>
+                    <div class="dropdown-menu">
+                        <a href="#">Information Systems</a>
+                        <a href="#">Medicine</a>
+                        <a href="#">Engineering</a>
+                        <a href="#">Digital Games</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Scholarship and Discounts <span class="icone-seta"><i class="fas fa-chevron-down"></i></span></a>
+                    <div class="dropdown-menu">
+                        <a href="#">Fies</a>
+                        <a href="#">Prouni</a>
+                        <a href="#">Fundacred</a>
+                        <a href="#">Santander</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Study in Unifacisa <span class="icone-seta"><i class="fas fa-chevron-down"></i></span></a>
+                    <div class="dropdown-menu">
+                        <a href="#">ENEM</a>
+                        <a href="#">Second Graduation</a>
+                        <a href="#">Transference</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">The Unifacisa <span class="icone-seta"><i class="fas fa-chevron-down"></i></span></a>
+                    <div class="dropdown-menu">
+                        <a href="#">Who We Are</a>
+                        <a href="#">News</a>
+                        <a href="#">Library</a>
+                        <a href="#">Academic Repository</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <img src="assets/people.jpg" alt="Banner" width="100px" height="50px" >
+        </div>
+        <div class="descricaoForms">
+            <h2 id="ombudsmanOffice">Ombudsman Office</h2>
+        </div>
+        <div class="resumo">
+            <p>
+                The Unifacisa Ombudsman's Office is a communication channel of a mediating and democratic nature, which welcomes manifestations from students, teachers, staff and the community in general.
+            </p>
+            <p>
+                If you have any complaints, reports, suggestions, requests or compliments, please contact us via email: <strong>ouvidoria@unifacisa.edu.br</strong> or, if you prefer, fill out our form by clicking on the link below.
+            </p>
+        </div>
+        <div class="form">
+            <form id="formulario">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="ocupation">Ocupation</label>
+                <input type="text" id="ocupation" name="ocupation" required>
+
+                <label for="telephone">Telephone</label>
+                <input type="text" id="telephone" name="telephone" required>
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="type">Type</label>
+                <input type="text" id="tipo" name="type" required>
+
+                <label for="mode">Mode</label>
+                <input type="text" id="mode" name="mode" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="issueDescription">Issue Description</label>
+                <textarea type="text" id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit" class="botaoSubmit" id="botao">Submit</button>
+            </form>
+        </div>
+        <section class="retanguloCinza">
+            <div class="contatos">
+                <h1>Have Questions?</h1>
+                <h5>We have a full team ready to assist you!</h5>
+                <button class="botaoDiscover">Discover more options!</button>
+            </div>
+            <div class="contatos">
+                <h2>Telephone</h2>
+                <h5>83 2101 8877</h5>
+                <button class="botaoTelEChat">Call Us</button>
+            </div>
+            <div class="contatos">
+                <h2>Chat</h2>
+                <h5>Leave your message in our chat, and we will help you! </h5>
+                <button class="botaoTelEChat">Message</button>
+            </div>
+        </section>
+        <footer>
+            <section>
+                <div>
+                    <img src="assets/unifacisa-2.png" alt="Logo" width="280px" height="60px" id="logoFooter">
+                </div>
+            </section>
+            <section class="containerFooter">
+                <div>
+                    <h2>Campus</h2>
+                    <h4>Unifacisa - Itararé Campus</h4>
+                    <p class="endereco">Av. Sen. Argemiro de Figueiredo, 1901 Itararé, Campina Grande - PB 58411-020</p>
+                    <h4>Unifacisa/Esac - Catolé Campus</h4>
+                    <p class="endereco">R. Luíza Bezerra Mota, 200 Catolé, Campina Grande - PB 58410-340</p>
+                </div>
+                <div>
+                    <h2>Academic Repository</h2>
+                    <p>Contract for Educational Services - Feras</p>
+                    <p class="endereco">Contrato de Prestação de Serviços Educacionais - Veteranos</p>
+                    <p>Consumer Protection Code</p>
+                    <p>Privacy Policy</p>
+                    <p>Student Manual</p>
+                    <p>MEC Ordinance 2.864</p>
+                </div>
+                <div>
+                    <h2>Contact Us</h2>
+                    <p>(83) 2101-8877</p>
+                    <p>Contact</p>
+                    <p>Ombudsman Office</p>
+                    <p>Privacy Policy</p>
+                    <p>Student Manual</p>
+                    <p>Academic Secretary</p>
+                </div>
+            </section>
+            <section class="copyrights">
+                <p>CESED - Centro de Ensino Superior e Desenvolvimento Ltda. © 2024 All copyrights reserved. CNPJ: 02.108.023/0001-40</p>
+            </section>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js"></script>
+
+</body>
+</html>
