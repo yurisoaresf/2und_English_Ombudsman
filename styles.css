@@ -22,18 +22,21 @@ nav ul li {
     margin-right: 20px;
 }
 nav ul li a {
-    display: inline-block;
+    display: flex;
     color: #000000;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     padding: 15px;
+
 }
 nav ul li a:hover {
     background-color: #fafafa;
 
+}
+.espaco{
+    padding-right: 10px;
 }
 .banner img {
     width: 100%;
@@ -91,7 +94,7 @@ textarea {
     line-height: 1.5;
 }
 .caixa-pesquisa {
-    margin-left: 460%;
+    margin-left: 72rem;
     padding: 9px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -132,8 +135,8 @@ strong{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-    height: 200px; 
+    width: auto;
+    height: 13rem; 
     margin-bottom: 2%;
     background-color: #EAEAEA
 }
@@ -178,17 +181,17 @@ strong{
     font-style: normal;
 }
 .descricaoForms{
+    display: flex;
     box-shadow: 0 0 5px rgb(77, 77, 77);
     color: #01347C;
-    width: 37%;
-    height: 64px;
-    margin-top: 10px;
-    margin-left: 31%;
-    padding-top: 0.01%;
-    padding-left: 1%;
+    width: 58rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 49rem;
+    padding-top: 0.1rem;
+    padding-left: 2rem;
     background-color: #EAEAEA;
     border-radius: 10px;
-    text-align: left;
     font-family: "Comfortaa", sans-serif;
     font-size: medium;
     font-weight:bolder;
@@ -197,7 +200,7 @@ strong{
 .containerFooter{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 1%;
     margin-left: 3%;
     margin-bottom: 3%;
@@ -233,4 +236,24 @@ strong{
 }
 .dropdown:hover .dropdown-menu{
     display: block;
+}
+
+@media (max-width:1920px) {
+    .descricaoForms{
+        display: flex;
+        box-shadow: 0 0 5px rgb(77, 77, 77);
+        color: #01347C;
+        width: 58rem;
+        height: 4rem;
+        margin-top: 1rem;
+        margin-left: 29.5rem;
+        padding-top: 0.1rem;
+        padding-left: 2rem;
+        background-color: #EAEAEA;
+        border-radius: 10px;
+        font-family: "Comfortaa", sans-serif;
+        font-size: medium;
+        font-weight:bolder;
+        font-style: normal;
+    }
 }

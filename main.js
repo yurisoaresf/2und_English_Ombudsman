@@ -3,8 +3,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     formulario.addEventListener("submit", (e) => {
         e.preventDefault();
-        alert("Congratulations! Your request has been sent successfully ;D");
+        Swal.fire(
+            'Good Job',
+            'Your request was sent successfully!',
+            'success'
+        )
         formulario.reset()
-        
     });
 });
+
