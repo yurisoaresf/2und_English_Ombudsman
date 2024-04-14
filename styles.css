@@ -94,7 +94,7 @@ textarea {
     line-height: 1.5;
 }
 .caixa-pesquisa {
-    margin-left: 72rem;
+    margin-left: 65rem;
     padding: 9px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -184,10 +184,10 @@ strong{
     display: flex;
     box-shadow: 0 0 5px rgb(77, 77, 77);
     color: #01347C;
-    width: 58rem;
+    width: 57rem;
     height: 4rem;
     margin-top: 1rem;
-    margin-left: 49rem;
+    margin-left: 28rem;
     padding-top: 0.1rem;
     padding-left: 2rem;
     background-color: #EAEAEA;
@@ -236,24 +236,4 @@ strong{
 }
 .dropdown:hover .dropdown-menu{
     display: block;
-}
-
-@media (max-width:1920px) {
-    .descricaoForms{
-        display: flex;
-        box-shadow: 0 0 5px rgb(77, 77, 77);
-        color: #01347C;
-        width: 58rem;
-        height: 4rem;
-        margin-top: 1rem;
-        margin-left: 29.5rem;
-        padding-top: 0.1rem;
-        padding-left: 2rem;
-        background-color: #EAEAEA;
-        border-radius: 10px;
-        font-family: "Comfortaa", sans-serif;
-        font-size: medium;
-        font-weight:bolder;
-        font-style: normal;
-    }
 }
